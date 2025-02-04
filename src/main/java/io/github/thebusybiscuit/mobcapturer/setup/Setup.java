@@ -376,7 +376,7 @@ public final class Setup {
             RecipeTypes.MOB_CAPTURING,
             new ItemStack[] {
                 null, null, null,
-                null, new CustomItemStack(SlimefunUtils.getCustomHead(eggTexture), ChatColor.WHITE + name), null,
+                null, CustomItemStack.create(SlimefunUtils.getCustomHead(eggTexture), ChatColor.WHITE + name), null,
                 null, null, null
             }
         );

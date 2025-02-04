@@ -32,7 +32,7 @@ public final class ItemGroups {
     public static final SubItemGroup TOOLS = new SubItemGroup(
         new NamespacedKey(MobCapturer.getInstance(), "tools"),
         MAIN,
-        new CustomItemStack(
+        CustomItemStack.create(
             ItemStacks.MOB_CANNON,
             "&dTools"
         )
@@ -40,7 +40,7 @@ public final class ItemGroups {
     public static final SubItemGroup MOB_EGGS = new SubItemGroup(
         new NamespacedKey(MobCapturer.getInstance(), "mob_eggs"),
         MAIN,
-        new CustomItemStack(
+        CustomItemStack.create(
             Material.CHICKEN_SPAWN_EGG,
             "&aMob Eggs"
         )

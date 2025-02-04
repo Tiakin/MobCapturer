@@ -16,7 +16,7 @@ repositories {
 
 dependencies {
     compileOnly("io.papermc.paper:paper-api:1.21-R0.1-SNAPSHOT")
-    compileOnly("com.github.Slimefun:Slimefun4:RC-37")
+    compileOnly("com.github.slimefun:Slimefun:4.9-UNOFFICIAL")
     implementation("org.bstats:bstats-bukkit:3.0.3")
     implementation("com.google.code.findbugs:jsr305:3.0.2")
     implementation("net.guizhanss:guizhanlib-all:2.2.0-SNAPSHOT")
