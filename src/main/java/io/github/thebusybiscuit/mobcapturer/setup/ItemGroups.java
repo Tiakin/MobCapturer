@@ -27,13 +27,13 @@ public final class ItemGroups {
             "MOB_CAPTURER",
             "d429ff1d2015cb11398471bb2f895f7b4c3ccec201e4ad7a86ff24b744878c",
             "&dMob Capturer"
-        )
+        ).item()
     );
     public static final SubItemGroup TOOLS = new SubItemGroup(
         new NamespacedKey(MobCapturer.getInstance(), "tools"),
         MAIN,
         CustomItemStack.create(
-            ItemStacks.MOB_CANNON,
+            ItemStacks.MOB_CANNON.item(),
             "&dTools"
         )
     );
